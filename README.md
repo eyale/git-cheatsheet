@@ -242,4 +242,6 @@ You'll notice that `git branch -d bad_feature` doesn't work. This is because `-d
 You can either `add` the `--force` (-f)option or use `-D` which combines `-d -f` together into one command.
 
 пушим коммит из ветки `develop` в ветку `dailyFix`
+```
 git push origin develop:dailyFix
+```
