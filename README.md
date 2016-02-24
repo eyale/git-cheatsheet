@@ -2,7 +2,7 @@
 
 добавляем локальные файлы в чистый(новый) репозиторий
 ```
-git remote add origin git@bitbucket.org:logicitsolutions/ald-carmarket.git
+git remote add origin https://github.com/user/repo.git
 git add .   
 git commit -m 'first commit' 
 git push -u origin --all # pushes up the repo and its refs for the first time
